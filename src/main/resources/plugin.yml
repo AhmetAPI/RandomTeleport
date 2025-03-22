@@ -1,0 +1,32 @@
+name: Kaptan
+version: 0.1
+main: org.AhmetAPI.kaptan.Kaptan
+api-version: 1.20
+author: xahmets_
+description: Teleportasyon ve spawn yönetimi eklentisi
+commands:
+  spawn:
+    description: Oyuncuyu spawn noktasına ışınlar
+    aliases: [merkez]
+    usage: /<command>
+  dunya:
+    description: Oyuncuyu rastgele bir konuma veya son konuma ışınlar
+    aliases: [rtp]
+    usage: /<command>
+  setspawn:
+    description: Spawn noktasını ayarlar
+    aliases: [spawnayarla]
+    usage: /<command>
+  kaptan:
+    description: Eklenti yönetim komutları
+    usage: /<command> reload
+permissions:
+  vip.use:
+    description: VIP oyuncular için anında ışınlanma
+    default: op
+  kaptan.setspawn:
+    description: Spawn noktasını ayarlama yetkisi
+    default: op
+  kaptan.reload:
+    description: Config ve mesajları yeniden yükleme yetkisi
+    default: op

@@ -1,0 +1,38 @@
+# DİL AYARI
+language: "TR"  # Dil seçeneği: TR (Türkçe) veya EN (İngilizce)
+
+# TELEPORTASYON AYARLARI
+teleport:
+  countdown: 10  # Geri sayım süresi (saniye).
+  sound: "ENTITY_PLAYER_LEVELUP"  # Işınlanma sesi.
+  vip-instant: true  # VIP'ler için anında ışınlanma.
+
+# SPAWN KOMUTU AYARLARI
+spawn:
+  enabled: true  # /spawn veya /merkez komutunu etkinleştirir.
+  location: null  # Spawn noktası (otomatik güncellenir).
+  last-location-worlds:  # Son konumu kaydeden dünyalar.
+    - "world"
+
+# DUNYA/RTP KOMUTU AYARLARI
+dunya:
+  enabled: true  # /dunya veya /rtp komutunu etkinleştirir.
+  allowed-worlds:  # Komutun kullanılabileceği dünyalar.
+    - "spawn"
+  target-world: "world"  # RTP hedef dünya.
+  random-coordinates:
+    min-x: -3000
+    max-x: 3000
+    min-z: -3000
+    max-z: 3000
+  safety:
+    attempts: 10  # Güvenli yer bulma deneme sayısı.
+
+# RESPAWN AYARLARI
+respawn:
+  radius: 10  # Respawn yarıçapı.
+
+# İZİNLER
+permissions:
+  vip: "vip.use"  # VIP izni.
+  setspawn: "kaptan.setspawn"  # /setspawn veya /spawnayarla izni.
