@@ -122,16 +122,3 @@ Bu proje  ile lisanslanmıştır.
     E-posta: ahmetapi@example.com <!-- Kendi e-postanızı ekleyin -->
 
 Kaptan ile sunucunuzu daha eğlenceli hale getirin!
-text
-
----
-
-### **Kopyalama ve Kullanım**
-- Yukarıdaki metni kopyalayıp bir GitHub deposunda `README.md` dosyası olarak kullanabilirsiniz.
-- Depoyu oluştururken:
-  1. `Kaptan` adında bir depo oluşturun.
-  2. `README.md` dosyasını ekleyin ve bu metni yapıştırın.
-  3. Gerekirse logo URL’sini (`https://via.placeholder.com/150`) kendi logonuzla değiştirin.
-  4. E-posta adresinizi ekleyin.
-
-Bu yazı, pluginin özelliklerini tanıtır ve kullanıcıların kolayca kurup kullanmasını sağlar. Eklemek istediğiniz bir şey varsa, söyleyin!
